@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.wrapper {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    background: #FAF4F2;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*--------------------------------Main-----------------------------*/
+.main-wrapper {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    width: 1082px;
+}
+
+.left-main-block {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 112px;
+}
+
+/*--------------------------------Main-text-----------------------------*/
+
+.text-wrapper h1 {
+    width: 475px;
+    color: #222;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 62px; /* 155% */
+}
+
+.text-wrapper p {
+    width: 509px;
+    height: 144px;
+    color: #222;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+/*--------------------------------Main-photo-----------------------------*/
+.photo {
+    margin-top: 100px;
+}
+
+/*--------------------------------Main-social-icons-----------------------------*/
+.social-wrapper {
+    margin-top: 54px;
+}
+
+.icon:hover {
+    filter: brightness(1.2);
+}
+
+/*--------------------------------Main-buttons-----------------------------*/
+.buttons {
+    margin-top: 25px;
+}
+
+.btn-Send-Request {
+    width: 151px;
+    height: 55px;
+    border-radius: 10px;
+    background: #FF2950;
+    color: #F9F9F9;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 25px;
+    transition: 1s;
+}
+
+.btn-Send-Request:hover {
+    filter: brightness(1.2);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.btn-Download-CV {
+    width: 153px;
+    height: 55px;
+    border-radius: 10px;
+    border: 2px solid #FF9B70;
+    color: rgba(34, 34, 34, 0.50);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    transition: 1s;
+}
+
+.btn-Download-CV:hover {
+    filter: brightness(1.2);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*--------------------------------Section--glad-to-help-you-----------------------------*/
+.glad-to-help-you {
+    display: flex;
+    justify-content: start;
+    margin-top: 139px;
+    width: 1140px;
+    height: 519px;
+    border-radius: 35px;
+    background: #FF7315;
+}
+
+.glad-to-help-you h2 {
+    color: #F9F9F9;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+}
+
+.glad-to-help-you .text h2:nth-of-type(1) {
+    padding: 62px 0 16px 0;
+    font-size: 72px;
+}
+
+.glad-to-help-you .text h2:nth-of-type(2) {
+    padding: 19px 0 19px 0;
+    font-size: 48px;
+}
+
+.glad-to-help-you p {
+    color: #F9F9F9;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.glad-to-help-you .text p:nth-of-type(1) {
+    line-height: 36px;
+}
+
+.glad-to-help-you .text p:nth-of-type(2) {
+    line-height: 45px;
+}
+
+.text {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 570px;
+    height: 100%;
+    margin-left: 32px;
+}
+
+.glad-to-help-you img {
+    margin: 93px 0 97px 32px;
+}
+
+/*--------------------------------Why Hire Me? Cards-----------------------------*/
+.cards {
+    gap: 60px;
+
+}
+
+.card {
+    height: 287px;
+    width: 240px;
+}
+
+.card-text h4 {
+    color: #222;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    margin-bottom: 12px;
+}
+
+.card-text p {
+    color: rgba(34, 34, 34, 0.50);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.why-hire-me h2 {
+    color: #222;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+    margin: 125px 0 100px 0;
+}
+
+.card-img {
+    width: 98px;
+    height: 98px;
+    border-radius: 100%;
+    background: rgba(34, 34, 34, 0.10);
+    margin-bottom: 51px;
+}
+
+/*--------------------------------Portfolio-----------------------------*/
+.portfolio-wrapper {
+    margin-top: 125px;
+    width: 1440px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.portfolio-wrapper h2 {
+    color: #222;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 123.6%; /* 59.328px */
+    text-transform: capitalize;
+    margin-left: 150px;
+
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 310px);
+    margin: 64px 0 125px 231px;
+    gap: 24px;
+    height: 624px;
+    width: 978px;
+}
+
+.gallery img {
+    transition: 1s;
+}
+
+.gallery img:hover {
+    transition: 1s;
+    transform: scale(1.1);
+
+}
+
+/*--------------------------------Advantages-----------------------------*/
+.advantages {
+    width: 1440px;
+    height: 643px;
+    background: #FF7315;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.advantages h3 {
+    color: #F9F9F9;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px; /* 125% */
+    width: 609px;
+    margin-top: 48px;
+    margin-bottom: 111px;
+}
+
+.advantages p {
+    width: 419px;
+    height: 108px;
+    color: #222;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 24px;
+}
+
+.comments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 82px;
+}
+
+.comment-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 529px;
+    height: 179px;
+    border-radius: 30px;
+    background: #F9F9F9;
+}
+
+/*--------------------------------Price-plans -----------------------------*/
+.price-plans-wrapper {
+    margin-top: 125px;
+}
+
+.price-cards-text-decoration {
+    color: #222;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    text-transform: capitalize;
+}
+
+.price-plans-wrapper h2 {
+    color: #222;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 123.6%; /* 59.328px */
+    text-transform: capitalize;
+}
+
+.price-cards {
+    display: flex;
+    justify-content: center;
+    gap: 67px;
+    margin-top: 64px;
+}
+/*--------------------------------Price-plans-card -----------------------------*/
+.price-card {
+    width: 335px;
+    height: 500px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
+    transition: 0.5s;
+
+}
+
+.price-card:hover {
+    transition: 1s;
+    transform: scale(1.3);
+}
+
+.card-name {
+    width: 335px;
+    height: 66px;
+    border-radius: 15px 15px 0 0;
+    background: #FF9B70;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+    margin-bottom: 36px;
+    color: #F9F9F9;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 123.6%; /* 29.664px */
+    text-transform: capitalize;
+}
+
+.price {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    gap: 12px;
+}
+
+.price h3 {
+    color: #2B2B2B;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 123.6%; /* 39.552px */
+    text-transform: capitalize;
+    margin-left: 98px;
+}
+
+.price span {
+    margin-bottom: 5px;
+    color: #2B2B2B;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+    opacity: 0.5;
+}
+
+.card-description {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 16px;
+    margin-top: 29px;
+    width: 335px;
+    height: 305px;
+}
+
+ul li:nth-child(n) {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 335px;
+}
+
+/*-------------------------------Silver-card------------------*/
+.silver ul li:nth-child(-n+2)::before {
+    content: "";
+    background-image: url("svg/check.svg");
+    width: 24px;
+    height: 24px;
+    margin: 0 16px 16px 48px;
+    display: inline-block;
+}
+
+.silver ul li:nth-child(n+3)::before {
+    content: "";
+    background-image: url("svg/cross.svg");
+    width: 24px;
+    height: 24px;
+    margin: 0 16px 16px 48px;
+    display: inline-block;
+    opacity: 0.5;
+
+}
+
+.silver ul li:nth-child(n+3) {
+    opacity: 0.5;
+}
+
+/*-------------------------------Gold-card------------------*/
+.gold ul li:nth-child(-n+4)::before {
+    content: "";
+    background-image: url("svg/check.svg");
+    width: 24px;
+    height: 24px;
+    margin-left: 48px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.gold ul li:nth-child(n+5)::before {
+    content: "";
+    background-image: url("svg/cross.svg");
+    width: 24px;
+    height: 24px;
+    margin-left: 48px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.gold ul li:nth-child(n+5) {
+    opacity: 0.5;
+}
+
+/*-------------------------------Diamond-card------------------*/
+.diamond ul li:nth-child(n)::before {
+    content: "";
+    background-image: url("svg/check.svg");
+    width: 24px;
+    height: 24px;
+    margin-left: 48px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+/*-----------------------------------Section-Email-me---------------------------------*/
+.email-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1110px;
+    height: 224px;
+    border-radius: 25px;
+    background: #FF7315;
+    margin-top: 100px;
+    gap: 333px;
+}
+
+.email-me-title {
+    width: 343px;
+    height: 124px;
+    color: #F9F9F9;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 62px; /* 172.222% */
+}
+
+.email-me button {
+    width: 259px;
+    height: 70px;
+    border-radius: 10px;
+    background: #F9F9F9;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.01);
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: 1s;
+}
+
+.email-me button:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+    transition: 1s;
+}
+/*-----------------------------------Section-Blog---------------------------------*/
+.blog {
+    margin-top: 125px;
+}
+
+.blog h2 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+    margin-bottom: 48px;
+}
+
+.blog-cards-wrapper {
+    gap: 20px;
+}
+
+.blog-card {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 270px;
+    height: 364px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.07);
+}
+
+.blog-card img {
+    width: 250px;
+    height: 195px;
+    border-radius: 15px;
+    margin: 15px 0 24px 0;
+
+}
+
+.blog-card h4 {
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%; /* 19.776px */
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+.blog-card p {
+    width: 240px;
+    height: 70px;
+    color: rgba(34, 34, 34, 0.50);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 200% */
+    text-transform: capitalize;
+
+}
+/*-----------------------------------Footer---------------------------------*/
+footer {
+    width: 100%;
+    height: 170px;
+    margin-top: 125px;
+    background: #F1F1F1;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
